@@ -46,9 +46,9 @@ function App() {
       <div style={{
         display: 'column'
       }}>
-        <h1>{produto?.id}</h1>
-        <h1>{produto?.nome}</h1>
-        <h1>{produto?.preco}</h1>
+        <h1>ID: {produto?.id}</h1>
+        <h1>Nome: {produto?.nome}</h1>
+        <h1>Preço: {produto?.preco}</h1>
       </div>
     </div>
   )
